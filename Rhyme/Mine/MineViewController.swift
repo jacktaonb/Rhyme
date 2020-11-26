@@ -14,6 +14,10 @@ class MineViewController: UIViewController {
         self.view.backgroundColor = .red
         self.tabBarItem.image = UIImage(named: "1")
         self.tabBarItem.title = "我的"
+        
+        
+        
+        
     }
     
 
