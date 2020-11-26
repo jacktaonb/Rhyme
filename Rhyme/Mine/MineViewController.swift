@@ -16,6 +16,8 @@ class MineViewController: UIViewController {
         self.tabBarItem.title = "我的"
         
         
+        
+        
     }
     
 
