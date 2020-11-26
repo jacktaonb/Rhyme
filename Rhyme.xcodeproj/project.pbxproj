@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3029339918EC276FA52EEFBD /* Pods_Rhyme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9CDC7E044B9BDF59856BE0 /* Pods_Rhyme.framework */; };
 		935BF8A6256F8702003E57B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8A5256F8702003E57B3 /* AppDelegate.swift */; };
 		935BF8A8256F8702003E57B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8A7256F8702003E57B3 /* SceneDelegate.swift */; };
 		935BF8AA256F8702003E57B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8A9256F8702003E57B3 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04AC0F1C6D5FD7532DAAB6D4 /* Pods-Rhyme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rhyme.release.xcconfig"; path = "Target Support Files/Pods-Rhyme/Pods-Rhyme.release.xcconfig"; sourceTree = "<group>"; };
 		935BF8A2256F8702003E57B3 /* Rhyme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rhyme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		935BF8A5256F8702003E57B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		935BF8A7256F8702003E57B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,8 @@
 		935BF8D8256F87ED003E57B3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		935BF8DD256F887C003E57B3 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		935BF8E2256F88B8003E57B3 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		CA9CDC7E044B9BDF59856BE0 /* Pods_Rhyme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rhyme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD9D2CC803E5B5A87EDC38D /* Pods-Rhyme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rhyme.debug.xcconfig"; path = "Target Support Files/Pods-Rhyme/Pods-Rhyme.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3029339918EC276FA52EEFBD /* Pods_Rhyme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DC228AA357AE5B2051C71E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBD9D2CC803E5B5A87EDC38D /* Pods-Rhyme.debug.xcconfig */,
+				04AC0F1C6D5FD7532DAAB6D4 /* Pods-Rhyme.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8349894FB136AFE0511A054E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA9CDC7E044B9BDF59856BE0 /* Pods_Rhyme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		935BF899256F8702003E57B3 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +112,8 @@
 				935BF8BB256F8704003E57B3 /* RhymeTests */,
 				935BF8C6256F8704003E57B3 /* RhymeUITests */,
 				935BF8A3256F8702003E57B3 /* Products */,
+				3DC228AA357AE5B2051C71E1 /* Pods */,
+				8349894FB136AFE0511A054E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 935BF8CC256F8704003E57B3 /* Build configuration list for PBXNativeTarget "Rhyme" */;
 			buildPhases = (
+				2DB36D3E3E8465CC31953964 /* [CP] Check Pods Manifest.lock */,
 				935BF89E256F8702003E57B3 /* Sources */,
 				935BF89F256F8702003E57B3 /* Frameworks */,
 				935BF8A0256F8702003E57B3 /* Resources */,
+				08DB6D1551935E0E8EE3F88D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,6 +312,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08DB6D1551935E0E8EE3F88D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rhyme/Pods-Rhyme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rhyme/Pods-Rhyme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rhyme/Pods-Rhyme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DB36D3E3E8465CC31953964 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rhyme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		935BF89E256F8702003E57B3 /* Sources */ = {
@@ -469,6 +538,7 @@
 		};
 		935BF8CD256F8704003E57B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD9D2CC803E5B5A87EDC38D /* Pods-Rhyme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +558,7 @@
 		};
 		935BF8CE256F8704003E57B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AC0F1C6D5FD7532DAAB6D4 /* Pods-Rhyme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
