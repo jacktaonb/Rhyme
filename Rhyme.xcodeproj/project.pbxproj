@@ -15,6 +15,9 @@
 		935BF8B2256F8704003E57B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935BF8B0256F8704003E57B3 /* LaunchScreen.storyboard */; };
 		935BF8BD256F8704003E57B3 /* RhymeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8BC256F8704003E57B3 /* RhymeTests.swift */; };
 		935BF8C8256F8704003E57B3 /* RhymeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8C7256F8704003E57B3 /* RhymeUITests.swift */; };
+		935BF8D9256F87ED003E57B3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8D8256F87ED003E57B3 /* HomeViewController.swift */; };
+		935BF8DE256F887C003E57B3 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8DD256F887C003E57B3 /* LearnViewController.swift */; };
+		935BF8E3256F88B8003E57B3 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8E2256F88B8003E57B3 /* MineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		935BF8C3256F8704003E57B3 /* RhymeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhymeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935BF8C7256F8704003E57B3 /* RhymeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhymeUITests.swift; sourceTree = "<group>"; };
 		935BF8C9256F8704003E57B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935BF8D8256F87ED003E57B3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		935BF8DD256F887C003E57B3 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		935BF8E2256F88B8003E57B3 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		935BF8A4256F8702003E57B3 /* Rhyme */ = {
 			isa = PBXGroup;
 			children = (
+				935BF8E9256F8C5E003E57B3 /* Mine */,
+				935BF8E8256F8C4F003E57B3 /* Learn */,
+				935BF8E7256F8C43003E57B3 /* Home */,
 				935BF8A5256F8702003E57B3 /* AppDelegate.swift */,
 				935BF8A7256F8702003E57B3 /* SceneDelegate.swift */,
 				935BF8A9256F8702003E57B3 /* ViewController.swift */,
@@ -126,6 +135,30 @@
 				935BF8C9256F8704003E57B3 /* Info.plist */,
 			);
 			path = RhymeUITests;
+			sourceTree = "<group>";
+		};
+		935BF8E7256F8C43003E57B3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				935BF8D8256F87ED003E57B3 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		935BF8E8256F8C4F003E57B3 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				935BF8DD256F887C003E57B3 /* LearnViewController.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		935BF8E9256F8C5E003E57B3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				935BF8E2256F88B8003E57B3 /* MineViewController.swift */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935BF8DE256F887C003E57B3 /* LearnViewController.swift in Sources */,
 				935BF8AA256F8702003E57B3 /* ViewController.swift in Sources */,
 				935BF8A6256F8702003E57B3 /* AppDelegate.swift in Sources */,
 				935BF8A8256F8702003E57B3 /* SceneDelegate.swift in Sources */,
+				935BF8D9256F87ED003E57B3 /* HomeViewController.swift in Sources */,
+				935BF8E3256F88B8003E57B3 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
