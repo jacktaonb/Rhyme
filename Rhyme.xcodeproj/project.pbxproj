@@ -22,6 +22,8 @@
 		935BF8D9256F87ED003E57B3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8D8256F87ED003E57B3 /* HomeViewController.swift */; };
 		935BF8DE256F887C003E57B3 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8DD256F887C003E57B3 /* LearnViewController.swift */; };
 		935BF8E3256F88B8003E57B3 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8E2256F88B8003E57B3 /* MineViewController.swift */; };
+		93E7DBD725739E6600AE8C72 /* HomeChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7DBD525739E6600AE8C72 /* HomeChildTableViewCell.swift */; };
+		93E7DBD825739E6600AE8C72 /* HomeChildCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7DBD625739E6600AE8C72 /* HomeChildCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		935BF8D8256F87ED003E57B3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		935BF8DD256F887C003E57B3 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		935BF8E2256F88B8003E57B3 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		93E7DBD525739E6600AE8C72 /* HomeChildTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeChildTableViewCell.swift; sourceTree = "<group>"; };
+		93E7DBD625739E6600AE8C72 /* HomeChildCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeChildCollectionViewCell.swift; sourceTree = "<group>"; };
 		CA9CDC7E044B9BDF59856BE0 /* Pods_Rhyme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rhyme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD9D2CC803E5B5A87EDC38D /* Pods-Rhyme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rhyme.debug.xcconfig"; path = "Target Support Files/Pods-Rhyme/Pods-Rhyme.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +174,8 @@
 		935BF8E7256F8C43003E57B3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				93E7DBD625739E6600AE8C72 /* HomeChildCollectionViewCell.swift */,
+				93E7DBD525739E6600AE8C72 /* HomeChildTableViewCell.swift */,
 				935BF8D8256F87ED003E57B3 /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -370,7 +376,9 @@
 			files = (
 				935BF8DE256F887C003E57B3 /* LearnViewController.swift in Sources */,
 				935BF8AA256F8702003E57B3 /* ViewController.swift in Sources */,
+				93E7DBD825739E6600AE8C72 /* HomeChildCollectionViewCell.swift in Sources */,
 				5282A8AB25736E480086E3A8 /* MineModel.swift in Sources */,
+				93E7DBD725739E6600AE8C72 /* HomeChildTableViewCell.swift in Sources */,
 				935BF8A6256F8702003E57B3 /* AppDelegate.swift in Sources */,
 				5282A8A6257367B60086E3A8 /* BodyTableViewCell.swift in Sources */,
 				935BF8A8256F8702003E57B3 /* SceneDelegate.swift in Sources */,

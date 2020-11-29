@@ -78,8 +78,7 @@ class MineViewController: UIViewController {
         
         self.bodyDatas3.append(MineModel(leftIcon: "setx1", titleText: "设置"))
     }
-<<<<<<< HEAD
-=======
+
     
 }
 
@@ -142,6 +141,6 @@ extension MineViewController: UITableViewDataSource,UITableViewDelegate {
     }
     
     
->>>>>>> b7e949751facd43f7668686b77db0af926290eae
+
 
 }

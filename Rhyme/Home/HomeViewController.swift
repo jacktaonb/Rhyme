@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-struct information {
+public struct information {
     var name:String
     var photo:String
 }
