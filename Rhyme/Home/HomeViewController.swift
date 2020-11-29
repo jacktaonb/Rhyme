@@ -7,6 +7,8 @@
 
 import UIKit
 import SnapKit
+import ESTabBarController_swift
+import EachNavigationBar
 
 public struct information {
     var name:String
@@ -161,6 +163,17 @@ class HomeViewController: UIViewController, ConstraintRelatableTarget{
         return collect
     }()
     
+    lazy var naviga:navi = {
+        let view = navi(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 88))
+        view.label.text = "首页"
+        return view
+    }()
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setToolbarHidden(true, animated: false)
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -168,6 +181,8 @@ class HomeViewController: UIViewController, ConstraintRelatableTarget{
         self.tabBarItem.image = UIImage(named: "1")
         self.tabBarItem.title = "首页"
         self.view.addSubview(collection)
+        
+        self.view.addSubview(naviga)
         
         vi.addSubview(label)
         vi.addSubview(hot)

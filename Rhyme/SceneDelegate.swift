@@ -20,10 +20,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let learnController = LearnViewController()
         let mineController = MineViewController()
         let tabBarController = UITabBarController()
-        tabBarController.setViewControllers([homeController,learnController,mineController], animated: true)
-        let rootView = UINavigationController(rootViewController: tabBarController)
         
-        self.window?.rootViewController = rootView
+        let first = UINavigationController(rootViewController: homeController)
+        let second = UINavigationController(rootViewController: learnController)
+        let third = UINavigationController(rootViewController: mineController)
+        
+        first.tabBarItem.image = UIImage(named: "1")
+        first.tabBarItem.title = "首页"
+        first.navigation.item.title = "首页"
+        second.tabBarItem.image = UIImage(named: "1")
+        second.tabBarItem.title = "学习"
+        third.tabBarItem.image = UIImage(named: "1")
+        third.tabBarItem.title = "个人"
+        
+        tabBarController.setViewControllers([first,second,third], animated: false)
+        self.window?.rootViewController = tabBarController
         self.window?.makeKeyAndVisible()
         
         guard let _ = (scene as? UIWindowScene) else { return }

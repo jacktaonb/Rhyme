@@ -9,6 +9,18 @@ import UIKit
 
 class LearnViewController: UIViewController {
     
+    lazy var naviga:navi = {
+        let view = navi(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 88))
+        view.label.text = "学习"
+        return view
+    }()
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setToolbarHidden(true, animated: false)
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
     var collectionData:[information] = [information(name: "零基础学状语", photo: "壮族-一家"),information(name: "从古至今说状语", photo:"壮族-动漫")]
     
     override func viewDidLoad() {
@@ -16,6 +28,7 @@ class LearnViewController: UIViewController {
         view.backgroundColor = .white
         tabBarItem.image = UIImage(named: "1")
         tabBarItem.title = "学习"
+        self.view.addSubview(naviga)
         configUI()
     }
     

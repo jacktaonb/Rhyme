@@ -13,6 +13,18 @@ let InformationTableViewCellID = "InformationTableViewCell"
 let BodyTableViewCellID = "BodyTableViewCell"
 
 class MineViewController: UIViewController {
+    
+    lazy var naviga:navi = {
+        let view = navi(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 88))
+        view.label.text = "个人"
+        return view
+    }()
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setToolbarHidden(true, animated: false)
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
 
     
     var InformationData = InformationModel()
@@ -38,17 +50,19 @@ class MineViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.view.addSubview(naviga)
+        
         self.view.backgroundColor = UIColor.init(red: 250/255, green: 250/255, blue: 250/255, alpha: 1)
         self.tabBarItem.image = UIImage(named: "1")
         self.tabBarItem.title = "个人"
         
         //UINavigationController的相关设置
-        self.navigationItem.title = "个人"
-        self.navigationController?.navigationBar.barTintColor = UIColor(red: 227/255.0, green: 242/255.0, blue: 255/255.0, alpha: 1.0)
-        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.black]
-        self.navigationController?.navigationBar.layer.shadowColor = UIColor(red: 227/255.0, green: 242/255.0, blue: 255/255.0, alpha: 1.0).cgColor
-        self.navigationController?.navigationBar.layer.shadowOffset = CGSize(width: 0, height: 3)
-        self.navigationController?.navigationBar.layer.shadowOpacity = 0.7
+        self.navigation.item.title = "个人"
+//        self.navigationController?.navigationBar.barTintColor = UIColor(red: 227/255.0, green: 242/255.0, blue: 255/255.0, alpha: 1.0)
+//        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.black]
+//        self.navigationController?.navigationBar.layer.shadowColor = UIColor(red: 227/255.0, green: 242/255.0, blue: 255/255.0, alpha: 1.0).cgColor
+//        self.navigationController?.navigationBar.layer.shadowOffset = CGSize(width: 0, height: 3)
+//        self.navigationController?.navigationBar.layer.shadowOpacity = 0.7
         
         
         self.view.addSubview(tableview)
@@ -56,7 +70,7 @@ class MineViewController: UIViewController {
         tableview.snp.makeConstraints { (make) in
             make.left.equalToSuperview().offset(5)
             make.right.equalToSuperview().offset(-5)
-            make.top.equalToSuperview().offset(-27)
+            make.top.equalToSuperview().offset(88)
             make.bottom.equalToSuperview().offset(0)
         }
         

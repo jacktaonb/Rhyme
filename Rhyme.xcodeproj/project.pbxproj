@@ -25,6 +25,7 @@
 		93E7DBD725739E6600AE8C72 /* HomeChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7DBD525739E6600AE8C72 /* HomeChildTableViewCell.swift */; };
 		93E7DBD825739E6600AE8C72 /* HomeChildCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7DBD625739E6600AE8C72 /* HomeChildCollectionViewCell.swift */; };
 		E46D0D122573CA960027E748 /* LearnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D0D112573CA960027E748 /* LearnTableViewCell.swift */; };
+		E46D0D242573DA010027E748 /* navi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D0D232573DA010027E748 /* navi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		CA9CDC7E044B9BDF59856BE0 /* Pods_Rhyme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rhyme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD9D2CC803E5B5A87EDC38D /* Pods-Rhyme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rhyme.debug.xcconfig"; path = "Target Support Files/Pods-Rhyme/Pods-Rhyme.debug.xcconfig"; sourceTree = "<group>"; };
 		E46D0D112573CA960027E748 /* LearnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTableViewCell.swift; sourceTree = "<group>"; };
+		E46D0D232573DA010027E748 /* navi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				935BF8AE256F8704003E57B3 /* Assets.xcassets */,
 				935BF8B0256F8704003E57B3 /* LaunchScreen.storyboard */,
 				935BF8B3256F8704003E57B3 /* Info.plist */,
+				E46D0D232573DA010027E748 /* navi.swift */,
 			);
 			path = Rhyme;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				93E7DBD725739E6600AE8C72 /* HomeChildTableViewCell.swift in Sources */,
 				935BF8A6256F8702003E57B3 /* AppDelegate.swift in Sources */,
 				5282A8A6257367B60086E3A8 /* BodyTableViewCell.swift in Sources */,
+				E46D0D242573DA010027E748 /* navi.swift in Sources */,
 				935BF8A8256F8702003E57B3 /* SceneDelegate.swift in Sources */,
 				935BF8D9256F87ED003E57B3 /* HomeViewController.swift in Sources */,
 				5282A8A1257367A10086E3A8 /* InformationTableViewCell.swift in Sources */,
