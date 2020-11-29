@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3029339918EC276FA52EEFBD /* Pods_Rhyme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA9CDC7E044B9BDF59856BE0 /* Pods_Rhyme.framework */; };
+		5282A8A1257367A10086E3A8 /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282A8A0257367A10086E3A8 /* InformationTableViewCell.swift */; };
+		5282A8A6257367B60086E3A8 /* BodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282A8A5257367B60086E3A8 /* BodyTableViewCell.swift */; };
+		5282A8AB25736E480086E3A8 /* MineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5282A8AA25736E480086E3A8 /* MineModel.swift */; };
 		935BF8A6256F8702003E57B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8A5256F8702003E57B3 /* AppDelegate.swift */; };
 		935BF8A8256F8702003E57B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8A7256F8702003E57B3 /* SceneDelegate.swift */; };
 		935BF8AA256F8702003E57B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8A9256F8702003E57B3 /* ViewController.swift */; };
@@ -40,6 +43,9 @@
 
 /* Begin PBXFileReference section */
 		04AC0F1C6D5FD7532DAAB6D4 /* Pods-Rhyme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rhyme.release.xcconfig"; path = "Target Support Files/Pods-Rhyme/Pods-Rhyme.release.xcconfig"; sourceTree = "<group>"; };
+		5282A8A0257367A10086E3A8 /* InformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
+		5282A8A5257367B60086E3A8 /* BodyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTableViewCell.swift; sourceTree = "<group>"; };
+		5282A8AA25736E480086E3A8 /* MineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineModel.swift; sourceTree = "<group>"; };
 		935BF8A2256F8702003E57B3 /* Rhyme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rhyme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		935BF8A5256F8702003E57B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		935BF8A7256F8702003E57B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,7 +99,6 @@
 				CBD9D2CC803E5B5A87EDC38D /* Pods-Rhyme.debug.xcconfig */,
 				04AC0F1C6D5FD7532DAAB6D4 /* Pods-Rhyme.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -182,6 +187,9 @@
 			isa = PBXGroup;
 			children = (
 				935BF8E2256F88B8003E57B3 /* MineViewController.swift */,
+				5282A8A0257367A10086E3A8 /* InformationTableViewCell.swift */,
+				5282A8A5257367B60086E3A8 /* BodyTableViewCell.swift */,
+				5282A8AA25736E480086E3A8 /* MineModel.swift */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -362,9 +370,12 @@
 			files = (
 				935BF8DE256F887C003E57B3 /* LearnViewController.swift in Sources */,
 				935BF8AA256F8702003E57B3 /* ViewController.swift in Sources */,
+				5282A8AB25736E480086E3A8 /* MineModel.swift in Sources */,
 				935BF8A6256F8702003E57B3 /* AppDelegate.swift in Sources */,
+				5282A8A6257367B60086E3A8 /* BodyTableViewCell.swift in Sources */,
 				935BF8A8256F8702003E57B3 /* SceneDelegate.swift in Sources */,
 				935BF8D9256F87ED003E57B3 /* HomeViewController.swift in Sources */,
+				5282A8A1257367A10086E3A8 /* InformationTableViewCell.swift in Sources */,
 				935BF8E3256F88B8003E57B3 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
