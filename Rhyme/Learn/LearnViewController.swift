@@ -226,8 +226,8 @@ class RecentCell: UICollectionViewCell {
             starImage.snp.makeConstraints { make in
                 make.top.equalTo(self.contentLabel.snp.bottom).offset(2.6)
                 make.left.equalTo(self.rightImage.snp.right).offset(10.3 + base)
-                make.width.equalTo(20)
-                make.height.equalTo(20)
+                make.width.equalTo(130)
+                make.height.equalTo(40)
             }
             base = base + 2
         }

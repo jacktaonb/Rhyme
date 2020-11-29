@@ -1,16 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "E134A98F533AA747F16E304722E2FB8F.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "组 864@2x.png",
+      "filename" : "E134A98F533AA747F16E304722E2FB8F-1.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "组 864@3x.png",
+      "filename" : "E134A98F533AA747F16E304722E2FB8F-2.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
