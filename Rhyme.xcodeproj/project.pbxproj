@@ -24,6 +24,7 @@
 		935BF8E3256F88B8003E57B3 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935BF8E2256F88B8003E57B3 /* MineViewController.swift */; };
 		93E7DBD725739E6600AE8C72 /* HomeChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7DBD525739E6600AE8C72 /* HomeChildTableViewCell.swift */; };
 		93E7DBD825739E6600AE8C72 /* HomeChildCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7DBD625739E6600AE8C72 /* HomeChildCollectionViewCell.swift */; };
+		E46D0D122573CA960027E748 /* LearnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D0D112573CA960027E748 /* LearnTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		93E7DBD625739E6600AE8C72 /* HomeChildCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeChildCollectionViewCell.swift; sourceTree = "<group>"; };
 		CA9CDC7E044B9BDF59856BE0 /* Pods_Rhyme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rhyme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD9D2CC803E5B5A87EDC38D /* Pods-Rhyme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rhyme.debug.xcconfig"; path = "Target Support Files/Pods-Rhyme/Pods-Rhyme.debug.xcconfig"; sourceTree = "<group>"; };
+		E46D0D112573CA960027E748 /* LearnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				935BF8DD256F887C003E57B3 /* LearnViewController.swift */,
+				E46D0D112573CA960027E748 /* LearnTableViewCell.swift */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46D0D122573CA960027E748 /* LearnTableViewCell.swift in Sources */,
 				935BF8DE256F887C003E57B3 /* LearnViewController.swift in Sources */,
 				935BF8AA256F8702003E57B3 /* ViewController.swift in Sources */,
 				93E7DBD825739E6600AE8C72 /* HomeChildCollectionViewCell.swift in Sources */,
@@ -564,6 +568,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3HD9656AL;
 				INFOPLIST_FILE = Rhyme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -584,6 +589,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3HD9656AL;
 				INFOPLIST_FILE = Rhyme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
